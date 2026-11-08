@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="avatar.png" width="160" alt="Beatriz Falagán">
-</p>
-
 <h1 align="center">Beatriz Falagán</h1>
 <p align="center"><b>Platform Engineer & DevOps</b> · Azure · AWS · Terraform</p>
 
