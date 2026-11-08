@@ -63,4 +63,4 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
 
 ## 📫 Contacto
 
-Abierta a proyectos de plataforma, automatización cloud y DevOps. Escríbeme a **beatriz.falagan@gmail.com** o por [LinkedIn](https://www.linkedin.com/in/beatriz-falagan).
+Escríbeme a **beatriz.falagan@gmail.com** o por [LinkedIn](https://www.linkedin.com/in/beatriz-falagan).
