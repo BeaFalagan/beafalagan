@@ -53,13 +53,41 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
 
 ## 📂 Proyectos
 
+### ⭐ [Entreno](https://github.com/BeaFalagan/training-app) · app web para entrenadores personales
+
+Planes semanales para cada cliente y entrenamiento guiado con temporizador. Nace de un proyecto real en producción para un centro de entrenamiento personal.
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
+
+- **Seguridad en la base de datos:** autorización con Row Level Security en Postgres y Edge Functions para las acciones privilegiadas.
+- **DevSecOps:** CI con tipos, lint, tests y build; CodeQL, gitleaks, revisión de dependencias, Dependabot y rama protegida.
+- **Despliegue continuo** en Vercel de la web pública (SEO) y la app desde un solo build.
+- **Datos mínimos por diseño (RGPD)** y documentación de arquitectura, seguridad y despliegue.
+
+### 🌐 Open source
+
 | Repositorio | Qué es |
 |---|---|
 | [centinel-AI/monitor](https://github.com/centinel-AI/monitor) | Monitorización de la plataforma centinel-AI (TypeScript) |
 | [centinel-AI/docs](https://github.com/centinel-AI/docs) | Documentación pública: guías, API reference y changelogs |
-| [training-app](https://github.com/BeaFalagan/training-app) | Aplicación en desarrollo activo |
-| [terraform-test](https://github.com/BeaFalagan/terraform-test) | Pruebas y experimentos de infraestructura con Terraform |
-| [devops-cheatsheet](https://github.com/BeaFalagan/devops-cheatsheet) | Chuletas de referencia rápida para herramientas DevOps |
+
+### 🔒 Trabajo privado
+
+Proyectos en repositorios privados; puedo enseñarlos en una entrevista.
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| **RotaCert** | Rotación de certificados TLS sin cortes en Kubernetes y entornos multicloud: CLI, backend y panel de control | Go · TypeScript · Kubernetes |
+| **WSO2 en OpenShift** | Plantilla GitOps para WSO2 API Manager 4.6 con Identity Server 7.1 externo, con prácticas de producción | OpenShift · Kustomize · Argo CD |
+| **Plataforma DevOps corporativa** | Plantillas de Terraform y Ansible, pipelines de Azure DevOps, agentes en AKS, HashiCorp Vault y pruebas de carga | Terraform · Ansible · Azure DevOps · AKS · Vault · JMeter |
+| **Landing zones multicloud** | Plantillas de infraestructura para Azure y Oracle Cloud | Terraform · Azure · OCI |
 
 ## 📫 Contacto
 
