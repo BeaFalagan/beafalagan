@@ -53,6 +53,28 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
 
 ## 📂 Proyectos
 
+### ⭐ [centinelAI](https://centinelai.io) · observabilidad con IA para equipos DevOps
+
+*«Your SRE that never sleeps»*: de 1.000 alertas al día a 3 interrupciones que importan. Producto propio en beta abierta.
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Claude%20AI-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude AI">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack">
+</p>
+
+- **Pipeline de IA:** deduplicación por reglas, puntuación de 0 a 100 y correlación con Claude Haiku, y postmortem automático con Claude Sonnet. Solo llegan a Slack las alertas críticas, con causa probable, impacto y acciones recomendadas.
+- **Conectores:** agente de Kubernetes open source en Python con permisos de solo lectura, y webhooks de Prometheus/Alertmanager, Grafana y GitLab CI/CD.
+- **Arquitectura serverless:** Next.js 14 en Vercel, Supabase (Postgres + pgvector + Auth), jobs duraderos con Inngest, pagos con Stripe y emails con Resend.
+- **Producto completo:** registro público, planes y facturación, [documentación](https://docs.centinelai.io) y CI con tests.
+
+[Web](https://centinelai.io) · [Documentación](https://docs.centinelai.io) · [GitHub](https://github.com/centinel-AI)
+
 ### ⭐ [Entreno](https://github.com/BeaFalagan/training-app) · app web para entrenadores personales
 
 Planes semanales para cada cliente y entrenamiento guiado con temporizador. Nace de un proyecto real en producción para un centro de entrenamiento personal.
@@ -75,6 +97,7 @@ Planes semanales para cada cliente y entrenamiento guiado con temporizador. Nace
 
 | Repositorio | Qué es |
 |---|---|
+| [centinel-AI/agent](https://github.com/centinel-AI/agent) | Agente de Kubernetes de centinelAI: detecta CrashLoops, OOMKills e ImagePullBackOff con permisos de solo lectura (Python) |
 | [centinel-AI/monitor](https://github.com/centinel-AI/monitor) | Monitorización de la plataforma centinel-AI (TypeScript) |
 | [centinel-AI/docs](https://github.com/centinel-AI/docs) | Documentación pública: guías, API reference y changelogs |
 
