@@ -101,6 +101,23 @@ Weekly training plans for every client and guided workouts with a built-in timer
 - **Continuous delivery** to Vercel of both the SEO-optimized public site and the app from a single build.
 - **Data minimization by design (GDPR)**, with architecture, security and deployment docs.
 
+### ⭐ [Azure Landing Zone Engine](https://github.com/BeaFalagan/azure-landing-zone-engine) · landing zones as data
+
+Teams describe each Azure project in a single YAML file and open a pull request: a versioned Terraform engine validates it, posts the plan on the PR and deploys it after approval. No Terraform knowledge and no secrets required.
+
+<p>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JSON%20Schema-000000?style=flat-square&logo=json&logoColor=white" alt="JSON Schema">
+</p>
+
+- **Config as data:** one YAML per project and environment, a Backstage-ready JSON Schema and a catalog of allowed values. Errors point to the exact field before any plan runs.
+- **Versioned engine:** SemVer releases that each project pins, and four Terraform modules (naming and tags, resource group with Entra ID RBAC, hub-peered networking, monitoring) covered by 46 mocked tests.
+- **Secure pipeline:** GitHub Actions with OIDC, separate read-only plan and apply identities, an ABAC condition so the pipeline can only grant catalog roles to groups, and environment approvals. The apply refuses to run if the plan changed after approval.
+- **Guardrails:** cross-project IP overlap and subscription checks, deleting a YAML never destroys anything, and docs written for the people who write the data.
+
 ## 🌐 Open source
 
 | Repository | Description |
