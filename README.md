@@ -1,5 +1,5 @@
 <h1 align="center">Beatriz Falagán</h1>
-<p align="center"><b>Platform Engineer · DevOps · SRE</b><br>Azure · AWS · Kubernetes · Terraform · AI-powered operations</p>
+<p align="center"><b>Platform Engineer · DevOps</b><br>Azure · AWS · Kubernetes · Terraform · AI-powered operations</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/beatriz-falagan"><img src="https://img.shields.io/badge/LinkedIn-beatriz--falagan-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
