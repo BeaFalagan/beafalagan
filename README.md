@@ -41,7 +41,7 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
 - **Contenedores** — aplicaciones empaquetadas y orquestadas para correr igual en cualquier entorno.
 - **Cloud multi-proveedor** — redes, identidades, cómputo y costes en Azure y AWS.
 - **Monitorización** — métricas, logs y alertas para detectar problemas antes que los usuarios.
-- **APIs e integración** — gestión de APIs con WSO2 y documentación de plataforma.
+- **APIs e integración** — gestión de APIs con WSO2, despliegue de WSO2 en OpenShift y Kubernetes, y documentación de plataforma.
 
 <p>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
@@ -49,6 +49,7 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" alt="OpenShift">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/WSO2-FF7300?style=flat-square" alt="WSO2">
