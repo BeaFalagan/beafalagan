@@ -37,7 +37,7 @@ Diseño y automatizo plataformas cloud: infraestructura como código, pipelines 
 - **Contenedores** — aplicaciones empaquetadas y orquestadas para correr igual en cualquier entorno.
 - **Cloud multi-proveedor** — redes, identidades, cómputo y costes en Azure y AWS.
 - **Monitorización** — métricas, logs y alertas para detectar problemas antes que los usuarios.
-- **APIs e integración** — gestión de APIs con WSO2, despliegue de WSO2 en OpenShift y Kubernetes, y documentación de plataforma.
+- **APIs e integración** — despliegue de WSO2 en OpenShift y Kubernetes.
 
 <p>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
