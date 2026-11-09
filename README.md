@@ -4,7 +4,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/beatriz-falagan"><img src="https://img.shields.io/badge/LinkedIn-beatriz--falagan-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:beatriz.falagan@gmail.com"><img src="https://img.shields.io/badge/Email-beatriz.falagan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://centinelai.io"><img src="https://img.shields.io/badge/Building-centinelAI-5B4FCF?style=flat-square" alt="centinelAI"></a>
 </p>
 
 ---
